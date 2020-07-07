@@ -26,15 +26,15 @@ class QRCodeReader extends Component {
   render() {
     return (
       <div className='Bg_QrCode_Reader'>
-        {/* <div>
+        <div>
           <Link to="/" className='Link_as_button'><FontAwesomeIcon icon={faTimesCircle} /></Link>
         </div>
         <div className='Cnt_Logo'>
           <img src={trott2} alt="TROTT_2" className='logo_trott_2' />
           <h2 className='Title_Scan'>SCAN</h2>
           <p className='Text_Scan'>Trajet de groupe ? <Link>Appuie ici</Link></p>
-        </div> */}
-        {/* <div className="InputReadQrCodeContent">
+        </div>
+        <div className="InputReadQrCodeContent">
           <InputGroup>
             <InputGroupAddon addonType="prepend">
               <InputGroupText id="InputCreatQrCode">Le contenu du QR Code :</InputGroupText>
@@ -45,7 +45,7 @@ class QRCodeReader extends Component {
               value={this.state.result}
             />
           </InputGroup>
-        </div> */}
+        </div>
         <div>
           <QrReader
             delay={300}
@@ -54,14 +54,14 @@ class QRCodeReader extends Component {
             style={{ width: "100%" }}
           >malik</QrReader>
         </div>
-        {/* <div className="InputReadQrCodeContentMobile">
+        <div className="InputReadQrCodeContentMobile">
           <InputGroupText id="InputCreatQrCode">Le contenu du QR Code :</InputGroupText>
           <Input
             id=""
             type="text"
             value={this.state.result}
           />
-        </div> */}
+        </div>
       </div>
     );
   }
