@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import QrReader from "react-qr-reader";
-import BtnHome from "../BtnLink/BtnHome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTimesCircle } from '@fortawesome/free-solid-svg-icons'
+import { Link } from "react-router-dom";
 import { InputGroup, InputGroupText, InputGroupAddon, Input } from "reactstrap";
 import "./QRCodeReader.css";
 
@@ -22,7 +24,9 @@ class QRCodeReader extends Component {
   render() {
     return (
       <div>
-        <BtnHome />
+        <div>
+          <Link to="/" className='Link_as_button'><FontAwesomeIcon icon={faTimesCircle} /></Link>
+        </div>
         <div className="InputReadQrCodeContent">
           <InputGroup>
             <InputGroupAddon addonType="prepend">

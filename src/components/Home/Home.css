@@ -1,8 +1,40 @@
-.Container {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.Bg_Scanlogo {
+    background-color: gray;
     height: 100vh;
     width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+}
+
+.ScanLogo {
+    position: absolute;
+    bottom: 2rem;
+    left: 9.5rem;
+    z-index: 10000;
+}
+
+.Link_as_button {
+    font-size: 2rem;
+    color: white;
+}
+
+.Text_Scan {
+    font-family: "Poppins";
+    font-weight: 1000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.size2 {
+    position: absolute;
+    bottom: 2rem;
+    left: 12rem;
+    z-index: 1001;
 }
