@@ -13,6 +13,9 @@
 }
 
 .Cnt_Logo {
+    /* position: absolute;
+    left: 50%;
+    right: 50%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
