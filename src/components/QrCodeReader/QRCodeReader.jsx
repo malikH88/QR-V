@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import { InputGroup, InputGroupText, InputGroupAddon, Input } from "reactstrap";
 import "./QRCodeReader.css";
 
+import trott2 from '../../Image/TROTT_2.png'
+
 class QRCodeReader extends Component {
   state = {
     result: "No result"
@@ -23,9 +25,14 @@ class QRCodeReader extends Component {
   };
   render() {
     return (
-      <div>
+      <div className='Bg_QrCode_Reader'>
         <div>
           <Link to="/" className='Link_as_button'><FontAwesomeIcon icon={faTimesCircle} /></Link>
+        </div>
+        <div className='Cnt_Logo'>
+          <img src={trott2} alt="TROTT_2" className='logo_trott_2'/>
+          <h2 className='Title_Scan'>SCAN</h2>
+          <p className='Text_Scan'>Trajet de groupe ? <Link>Appuie ici</Link></p>
         </div>
         <div className="InputReadQrCodeContent">
           <InputGroup>

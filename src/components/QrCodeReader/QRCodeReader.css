@@ -1,3 +1,9 @@
+.Bg_QrCode_Reader {
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+}
+
 .InputReadQrCodeContentMobile {
     display: none;
 }
@@ -6,13 +12,37 @@
     padding: 3vh;
 }
 
+.Cnt_Logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-weight: 1000;
+}
+
+.logo_trott_2 {
+    max-width: 30vw;
+}
+
+.Title_Scan {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.Text_Scan {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 @media screen and (max-width: 768px) {
     .InputReadQrCodeContent {
         display: none;
     }
-
     .InputReadQrCodeContentMobile {
         display: block;
         padding: 3vh;
     }
-  }
+}
