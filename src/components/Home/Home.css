@@ -1,16 +1,8 @@
-.BtnHomeContent {
+.Container {
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-}
-
-
-.BtnLinkBottom {
-    display: flex;
-    justify-content: space-between;
-}
-
-.TitleHome {
-    color:  #03DAC5 !important;
 }

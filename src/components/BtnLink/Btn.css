@@ -1,48 +1,40 @@
-.btn-secondary {
-    background-color: #03DAC5 !important;
-    border-color: #03DAC5 !important;
-    margin: 2vh;
-  }
-  
-  .btn-secondary:hover {
-    background-color: #BB86FC !important;
-    border-color: #BB86FC !important;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
-a{
-    color: black !important;
+.Bg_Scanlogo{
+  background-color: gray;
+  height: 100vh;
+  width: 100vw;
 }
 
-#HomeBtn {
+.ScanLogo{
+  position: absolute;
+  bottom: 2rem;
+  left: 9.5rem;
+  z-index: 10000;
+}
+
+.Link_as_button {
   font-size: 2rem;
+  color: white;
 }
 
-.IconBackground {
-  color: #03DAC5;
-  font-size: 3rem;
-  margin: 7vh;
+.Text_Scan {
+  font-family: "Poppins";
+  font-weight: 1000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: black;
 }
 
-.IconBackground:hover {
-  color: #BB86FC;
+a {
+  text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-  .btn-secondary {
-    padding: 2vh !important;
-    font-size: 1.5rem !important;
-  }
-
-  .QrCode {
-    width: 256px !important;
-    height: auto !important;
-  }
-
-  .InputCreatQrCodeContent {
-    margin-bottom: 6vh !important;
-  }
-
-  #HomeBtn {
-    font-size: 3.5rem !important;
-  }
+.size2 {
+  position: absolute;
+  bottom: 2rem;
+  left: 12rem;
+  z-index: 1001;
 }
