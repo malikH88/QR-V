@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import QrReader from "react-qr-reader";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 import { Link } from "react-router-dom";
@@ -46,13 +45,23 @@ class QRCodeReader extends Component {
             />
           </InputGroup>
         </div>
-        <div>
-          <QrReader
-            delay={300}
-            onError={this.handleError}
-            onScan={this.handleScan}
-            style={{ width: "100%" }}
-          >malik</QrReader>
+        <div
+          delay={300}
+          onError={this.handleError}
+          onScan={this.handleScan}
+          style={{ width: "100%" }}>
+          <div>
+            <section className='bg_section'>
+              <section className='ctn_section'>
+                <div className='empty_div'>
+                </div>
+                <video className='video'>
+                </video>
+                <canvas className='canvas'>
+                </canvas>
+              </section>
+            </section>
+          </div>
         </div>
         <div className="InputReadQrCodeContentMobile">
           <InputGroupText id="InputCreatQrCode">Le contenu du QR Code :</InputGroupText>
