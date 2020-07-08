@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 import QrReader from "react-qr-reader";
 import { Link } from "react-router-dom";
-import { InputGroup, InputGroupText, InputGroupAddon, Input } from "reactstrap";
+
 import "./QRCodeReader.css";
 
 import trott2 from '../../Image/TROTT_2.png'
